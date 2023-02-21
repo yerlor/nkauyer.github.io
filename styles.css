@@ -192,3 +192,14 @@ footer li{
 .digitalImgs{
     width: 25rem;
 }
+a img:hover{
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.backToTopBtn{
+    float: right;
+}
